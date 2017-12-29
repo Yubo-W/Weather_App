@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+ul {
+  padding-left: 0px;
+}
+
+.list-group-item {
+  background-color: rgb(233, 233, 233);
+}
+
+#heading-separator {
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+#input-box, .search {
+  display: inline;
+}
+
+#error-message.active {
+  margin-top: 10px;
+  display: block;
+}
+
+#submit-button {
+  margin-top: 5px;
+}
+
+#error-message {
+  display: none;
+}
+
+#save {
+  margin-top: 8px;
+  background-color: gray;
+  border-color: gray;
+  color: white;
+  display: none;
+}
+
+#save.active {
+  display: block;
+}
+
+#temperature {
+  font-size: 20px;
+}
+
+#weather-name {
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 17px;
+}
+
+#weather-description {
+  color: lightgray;
+}
+
+#current-data {
+  display: none;
+}
+
+#current-data.active {
+  display: inline;
+}
+
+.remove-item {
+  float: right;
+}
+
+#small-screen {
+  display: none;
+}
+
+#details {
+  display: none;
+}
+
+#details.active {
+  display: block;
+}
+
+#details-link {
+  margin-left: 5px;
+  display: inline;
+}
+
+#details-link.active {
+  display: none;
+}
+
+#zip-code {
+  display: none;
+}
+
+@media(max-width: 768px) {
+  #small-screen {
+    display: block;
+  }
+}
